@@ -30,3 +30,4 @@ class News(models.Model):
     def increment_views(self):
         self.news_views += 1
         self.save()
+        
